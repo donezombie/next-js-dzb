@@ -1,8 +1,9 @@
 # next-js-dzb
 # Run script:
-1. ```npm i```
-2. ```npm run dev```
-3. ```rm -rf .git```
+1. ```git clone https://github.com/donezombie/next-js-dzb.git```
+2. ```npm i```
+3. ```npm run dev```
+4. ```rm -rf .git```
 
 # With package 
 <pre>
