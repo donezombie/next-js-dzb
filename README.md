@@ -1,6 +1,6 @@
 # next-js-dzb
 With package 
-    ``"@material-ui/core": "^4.4.3",
+    ```"@material-ui/core": "^4.4.3",
     "@material-ui/icons": "^4.4.3",
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
@@ -15,5 +15,5 @@ With package
     "react-redux": "^7.1.1",
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
-    "redux-saga": "^1.1.1"``
+    "redux-saga": "^1.1.1"```
  And some example about dynamic route / fetching data
