@@ -1,5 +1,10 @@
 # next-js-dzb
-With package 
+# Run script:
+1. ```npm i```
+2. ```npm run dev```
+3. ```rm -rf .git```
+
+# With package 
 <pre>
     "@material-ui/core": "^4.4.3",
     "@material-ui/icons": "^4.4.3",
