@@ -15,11 +15,10 @@ const EachUser = (props) => {
   )
 }
 
-EachUser.getInitialProps = async (context) => {
-  const { query } = context;
-  const { id } = query;
+EachUser.getInitialProps = async ({ ctx }) => {
+  const { user } = ctx.query;
   try {
-    const response = await Axios.get(`https://jsonplaceholder.typicode.com/users/${id}`);
+    const response = await Axios.get(`https://jsonplaceholder.typicode.com/users/${user}`);
     return {
       data: response.data,
     }

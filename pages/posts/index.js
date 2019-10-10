@@ -9,7 +9,7 @@ const PostsView = (props) => {
     <div>
       {posts10.map(el => (
         <div key={el.id}>
-          <Link href={`/posts/post?id=${el.id}`} as={`/posts/${el.id}`}>
+          <Link href={`/posts/[post]`} as={`/posts/${el.id}`}>
             <a>{el.title}</a>
           </Link>
         </div>

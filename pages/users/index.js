@@ -15,7 +15,7 @@ const Users = (props) => {
           <div>Phone: {el.phone}</div>
           <div>Username: {el.username} </div>
           <div>Website: {el.website} </div>
-          <Link href={`/users/user?id=${el.id}`} as={`/users/${el.id}`}>
+          <Link href={`/users/[user1]`} as={`/users/${el.id}`}>
             <a onClick={() => setLoading(true)}>More detail</a>
           </Link>
           <div>_________</div>

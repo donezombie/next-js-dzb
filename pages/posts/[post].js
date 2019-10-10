@@ -1,23 +1,22 @@
 import React, { useCallback } from 'react';
 import { useRouter } from 'next/router';
 import axios from 'axios';
-import Link from 'next/link';
 
 const EachPost = (props) => {
   const { query, data } = props;
-  const { id } = query;
+  const { post } = query;
   const router = useRouter();
 
   const backToHome = useCallback(() => {
     router.back();
-  }, [id]);
+  }, [post]);
 
   return (
     <div>
       <div style={{ color: 'red' }} onClick={backToHome}>
         Back
       </div>
-      This is post {id}
+      This is post {post}
       <div>id: {data.id}</div>
       <div>title: {data.title}</div>
       <div>body: {data.body}</div>
@@ -25,13 +24,13 @@ const EachPost = (props) => {
   )
 }
 
-EachPost.getInitialProps = async ({ query }) => {
-  const { id } = query;
+EachPost.getInitialProps = async ({ ctx }) => {
+  const { post } = ctx.query;
   try {
-    const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+    const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${post}`)
     return {
       data: response.data,
-      query
+      query: post,
     }
   } catch (err) {
     return {

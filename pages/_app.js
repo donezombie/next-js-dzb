@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
 import createStore from '../store'
+import Layout from '../components/Layout';
 
 Router.events.on('routeChangeStart', url => {
   console.log(`Loading: ${url}`)
@@ -19,7 +20,6 @@ Router.events.on('routeChangeError', () => NProgress.done())
 class MyApp extends App {
   static async getInitialProps ({ Component, ctx }) {
     let pageProps = {}
-
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps({ ctx })
     }
@@ -31,11 +31,12 @@ class MyApp extends App {
     const { Component, pageProps, store } = this.props
     return (
       <Provider store={store}>
-        <Head>
-          <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
-        </Head>
-
-        <Component {...pageProps} />
+        <Layout>
+          <Head>
+            <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
+          </Head>
+          <Component {...pageProps} />
+        </Layout>
       </Provider>
     )
   }
