@@ -18,7 +18,7 @@ const Home = (props) => {
     <button onClick={() => dispatch({ type: 'REQUEST_GET_USER'})}>Get API SAGA</button>
     <div>Home</div>
     { data && (
-      data.data.map(el => <div key={el.id}>
+      data.map(el => <div key={el.id}>
         {el.name} {el.email}
       </div>)
     )}
