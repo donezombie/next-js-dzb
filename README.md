@@ -9,6 +9,9 @@
     npm install
     
 2. This boiderplate has:
+  + Axios
+  + Lodash
   + Scss
+  + Redux Logger
   + React-Redux & Redux-Saga
   + Nprogess bar / Scroll bar
