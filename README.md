@@ -1,5 +1,4 @@
 <h1 align="center">React + Next.js + Redux + Redux Saga + Scss</h1>
-<h2 align="center">Template</h2>
 
 <p align="center">
   <a href="https://nextjs.org/" target="_blank"><img src="https://img.shields.io/badge/Next.js-v9.3.5-blueviolet.svg"></a>
@@ -7,9 +6,7 @@
   <a href="https://github.com/codica2" target="_blank"><img src="https://img.shields.io/badge/licence-MIT-green.svg" /></a>
 </p>
 
-# Landing page template
-
-## Starting template with:
+## Packges use in template:
 
 - React.js
 - Next.js ( latest ) 
