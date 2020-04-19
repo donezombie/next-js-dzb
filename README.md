@@ -1,8 +1,9 @@
-<h1 align="center">React + Next.js (9) + Redux + Redux Saga + Scss</h1>
+<h1 align="center">React + Next.js + Redux + Redux Saga + Scss</h1>
+<h2 align="center">Template</h2>
 
 <p align="center">
-  <a href="https://nextjs.org/" target="_blank"><img src="https://img.shields.io/badge/Next.js-v9.1.1-blueviolet.svg"></a>
-  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/React-v16.10.2-%238DD6F9.svg?logo=React"></a>
+  <a href="https://nextjs.org/" target="_blank"><img src="https://img.shields.io/badge/Next.js-v9.3.5-blueviolet.svg"></a>
+  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/React-v16.13.1-%238DD6F9.svg?logo=React"></a>
   <a href="https://github.com/codica2" target="_blank"><img src="https://img.shields.io/badge/licence-MIT-green.svg" /></a>
 </p>
 
