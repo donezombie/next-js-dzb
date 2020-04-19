@@ -1,6 +1,5 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import Head from 'next/head';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
@@ -18,9 +17,6 @@ Router.events.on('routeChangeError', () => NProgress.done())
 export default function MyApp({ Component, pageProps }) {
 	return (
 		<Provider store={store}>
-			<Head>
-				<link rel="shortcut icon" href="/static/assets/favicon.jpg" />
-			</Head>
 			<Header />
 			<div id="dzb-progress-bar" />
 			{/* <div id="nprogress" /> */}
