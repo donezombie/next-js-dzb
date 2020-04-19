@@ -32,6 +32,5 @@ Just make sure that you reboot the server when updating .env file
 
 ### Development
 
-- Upgrade Nextjs 9.
-- Proxy for API. 
+- Upgrade Nextjs 9.3.
 - Restructure Redux folder. 
