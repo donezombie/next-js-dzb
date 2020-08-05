@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import actions from '../redux/actions';
-import useScrollProgressBar from '../hooks/useScrollProgressBar';
-import TodoList from '../components/TodoList/TodoList';
+import actions from 'redux/actions';
+import useScrollProgressBar from 'hooks/useScrollProgressBar';
+import TodoList from 'components/TodoList/TodoList';
 
 const { testAction } = actions;
 

@@ -1,7 +1,7 @@
 
 import { useEffect } from 'react';
 
-export default () => {
+const useScrollProgressBar = () => {
   return useEffect(() => {
     const progressBar = document.getElementById("dzb-progress-bar");
 
@@ -37,3 +37,5 @@ export default () => {
     }
   }, []);
 };
+
+export default useScrollProgressBar;
