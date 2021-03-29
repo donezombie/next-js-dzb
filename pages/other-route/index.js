@@ -1,10 +1,14 @@
 import React from 'react';
+import DefaultLayout from 'layout/DefaultLayout';
+import withLoggedIn from 'HOC/withLoggedIn';
 
-const otherRoute = (props) => {
+const PrivateRoute = (props) => {
 
   return (
-    <div> Other Route </div>
+    <DefaultLayout>
+      <div> Private Route </div>
+    </DefaultLayout>
   )
 }
 
-export default otherRoute;
+export default withLoggedIn(PrivateRoute);

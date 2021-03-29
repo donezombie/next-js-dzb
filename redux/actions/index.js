@@ -1,5 +1,2 @@
-import * as testActions from './test';
-
-export default {
-  ...testActions,
-}
+export * from './test';
+export * from './authActions';

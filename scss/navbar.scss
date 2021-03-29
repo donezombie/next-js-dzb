@@ -1,0 +1,13 @@
+.nav.dzb {
+  justify-content: center;
+  background-color: $main-color;
+  padding: 0.8rem;
+  box-shadow: 0px 2px 4px #ccc;
+
+  li {
+    padding: 12px;
+    a { 
+      color: $white-color;
+    }
+  }
+}

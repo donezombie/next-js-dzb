@@ -13,6 +13,6 @@ function* testRequest() {
   }
 }
 
-export default function* () {
+export default function* watcherSaga() {
   yield takeLatest(types.TEST_REQUEST, testRequest)
 }

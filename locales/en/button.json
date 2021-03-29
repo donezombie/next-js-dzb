@@ -1,0 +1,14 @@
+{
+  "yes": "Yes",
+  "update": "Update",
+  "close": "Close",
+  "save": "Save",
+  "cancel": "Cancel",
+  "add_new_responder": "Build new responder",
+  "add_new_responder_template": "Build new responder template",
+
+  "flush_recent_performance": "Flush recent performance",
+  "add_more": "Add more",
+  "report": "Report",
+  "back_to_home": "Back to Homepage"
+}
