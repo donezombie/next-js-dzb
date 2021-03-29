@@ -9,7 +9,7 @@
 ## Packges use in template:
 
 - React.js
-- Next.js ( latest ) 
+- Next.js
 - SCSS
 - Redux
 - Redux Saga
